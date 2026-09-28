@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/hatchunit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hatch digests and unit fingerprints for local integrity checks.",
+  "bin": {
+    "hatchunit": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/hatchunit.git"
+  },
+  "homepage": "https://theworker02.github.io/hatchunit/",
+  "keywords": [
+    "hatch",
+    "unit",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
